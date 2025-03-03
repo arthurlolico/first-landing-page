@@ -4,9 +4,10 @@ body {
     margin: 0;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
     background: #1F2937;
 }
+
+/*HEADER*/
 
 .header {
  height: 72px;
@@ -14,7 +15,7 @@ body {
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding: 0px 160px;
+ padding: 0 160px;
 }
 
 .header-logo {
@@ -34,22 +35,27 @@ a {
     color: #E5E7EB;
 }
 
+/*CONTENT*/
+
 .content {
  display: flex;
  flex-direction: column;
- padding: 0px 160px;
 }
+
+/*HERO*/
 
 .hero {
-    background: #1F2937;
     display: flex;
     gap: 32px;
+    padding: 80px 160px;
 }
 
-.hero-text {
+.hero-left-side {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
+
 .main-text {
     font-size: 48px;
     color: #F9FAF8;
@@ -64,7 +70,32 @@ a {
 button {
     background-color: #3882F6;
     font-size: 18px;
+    font-weight: 700;
     color: #F9FAF8;
+    padding: 4px 28px;
+    border-radius: 8px;
+    border: none;
+}
+
+/*HERO-INFO*/
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+}
+
+.hero-set {
+    display:flex;
+}
+
+.hero-item {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
