@@ -137,6 +137,39 @@ button {
     text-align: right;
 }
 
+/*CALL-TO-ACTION*/
+
+.call {
+    background-color: #F9FAF8;
+    padding: 80px 160px;
+}
+
+.cta-background {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 48px 96px;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-main-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-secondary-text {
+    font-size: 18px;
+}
+
+.cta-background button {
+    border: 2px solid #F9FAF8;
+}
+
 .footer {
  height: 72px;
  background: #1F2937;
